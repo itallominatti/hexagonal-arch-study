@@ -1,0 +1,8 @@
+services:
+  app:
+    buid: .
+    container_name: appproduct
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/go/src/
