@@ -1,8 +1,8 @@
 services:
   app:
-    buid: .
+    build: .
     container_name: appproduct
     ports:
-      - "9000:9000"
+      - "8080:8080"
     volumes:
       - .:/go/src/
